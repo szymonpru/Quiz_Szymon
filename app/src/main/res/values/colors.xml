@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2E5984</color>
+    <color name="colorPrimaryDark">#2F3F62</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="mainFirst">#2d3e3f</color>
+    <color name="mainSecond">#f0f0f0</color>
+    <color name="mainThird">#ff6600</color>
+    <color name="box">#2E5984</color>
+    <color name="box_alpha_color">#2000ddff</color>
+    <color name="rbtn_checked">#7000ddff</color>
+</resources>

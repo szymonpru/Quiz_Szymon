@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Szymon Quiz</string>
+    <string name="welcome">Hello, my name is Szymon Pruszek and this is my Quiz. Please click Start button.</string>
+</resources>

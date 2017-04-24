@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/my_background"
+    tools:context="com.example.szymon_laptop.quiz_szymon.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/box_shape">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUESTIONS number"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/mainSecond"
+            android:textSize="22sp"
+            android:id="@+id/tvQuestionNumber" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Question bla bla bla "
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/mainSecond"
+            android:textSize="18sp"
+            android:id="@+id/tvQuestion" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvQuestion"
+            android:layout_marginTop="6dp">
+            <RadioButton
+                android:id="@+id/radioAnswerA"
+                style="@style/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rbtn_selector"
+                android:textColor="@drawable/rbtn_textcolor_selector"
+                android:text="Answer A" />
+            <RadioButton
+                android:id="@+id/radioAnswerB"
+                style="@style/radioButton"
+                android:layout_width="match_parent"
+                android:background="@drawable/rbtn_selector"
+                android:textColor="@drawable/rbtn_textcolor_selector"
+                android:layout_height="wrap_content"
+                android:text="Answer B" />
+            <RadioButton
+                android:id="@+id/radioAnswerC"
+                style="@style/radioButton"
+                android:background="@drawable/rbtn_selector"
+                android:textColor="@drawable/rbtn_textcolor_selector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Answer C" />
+            <RadioButton
+                android:id="@+id/radioAnswerD"
+                style="@style/radioButton"
+                android:background="@drawable/rbtn_selector"
+                android:textColor="@drawable/rbtn_textcolor_selector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Answer D" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:gravity="center"
+        android:background="@drawable/button_click"
+        style="@style/startButton"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/nextButton"
+        />
+
+</LinearLayout>
