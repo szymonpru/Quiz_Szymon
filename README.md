@@ -1,3 +1,3 @@
 # Quiz_Szymon
-# Szymon Pruszek Quiz - Android
-# I used dataBase, ListView etc.
+ Szymon Pruszek Quiz - Android.
+ I used dataBase, ListView etc.
